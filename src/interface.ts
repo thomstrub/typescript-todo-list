@@ -14,7 +14,7 @@ export interface TodoFormInterface {
 }
 
 // For Todo list interface
-eport interface TodoListInterface {
+export interface TodoListInterface {
     handleTodoUpdate: (event: React.ChangeEvent<HTMLInputElement>, id: string) => void;
     handleTodoRemove: (id: string) => void;
     handleTodoComplete: (id: string) => void;
