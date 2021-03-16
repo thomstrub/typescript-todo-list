@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import { render } from 'react-dom'
 //import components
-import ToDoForm from './components/ToDoForm'
-import ToDoList from './components/ToDoList'
+import ToDoForm from './components/TodoForm'
+import ToDoList from './components/TodoList'
 //import interfaces
 import { TodoInterface } from './interface'
 import './style.css'
