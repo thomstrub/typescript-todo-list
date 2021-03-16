@@ -26,3 +26,4 @@ const ToDoItem = (props: TodoItemInterface) => {
     )
 }
 
+export default ToDoItem
