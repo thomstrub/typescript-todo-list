@@ -19,8 +19,9 @@ const App: React.FC = () => {
   function handleTodoUpdate(event:
     React.ChangeEvent<HTMLInputElement>, id: string) {
       const newTodosState: TodoInterface[] = [...todos]
+      console.log(newTodosState, "pre todos")
       newTodosState.find((todo: TodoInterface) => todo.id === id)!.name = event.target.value
-
+      console.log(newTodosState, "post todos")
       setTodos(newTodosState)
     }
 
